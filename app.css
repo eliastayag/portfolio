@@ -1,31 +1,131 @@
 body {
-    background: linear-gradient(0.25turn, #e27d60, #85dcb8, #C38D9E);
+    background: linear-gradient(-65deg, #120144, #1f2024, #19142b, #000000);
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%;
 }
 
-#header {
+h1 {
     position: absolute;
-    background-size: cover;
-    height: 180px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    opacity: 0.8;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
     left: 0;
-    top: 0;
+    right: 0;
+    text-align: center;
+    top: 260px;
 }
+
+h2 {
+    position: absolute;
+    color: rgb(132, 75, 170);
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 305px;
+    background-color: white;
+    width: 150px;
+}
+
+#aboutelias {
+    animation: abt 4s infinite ease-in-out;
+}
+
+#bio {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    top: 360px;
+    width: 300px;    
+    text-align: center;
+}
+
+#bio1 {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    top: 450px;
+    width: 300px;    
+    text-align: center;
+    background-color: red;
+}
+
+#heh {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    top: 474px;
+    width: 300px;    
+    text-align: center;
+}
+
+#profpic {
+    width: 180px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+#video{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .8;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+
+
+}
+
+#boxx {
+    background-color: rgb(15, 15, 15);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    left: -5px;
+} 
 
 header {
-    color: azure;
     position: absolute;
-    width: 1000px;
-    height: 100px;
-    font-size: 100px;
-    top: 35px;
-    left: 650px;
-    animation: float 2s ease-in-out infinite;
-    font-family: Fredoka One;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+@keyframes BackgroundMove {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
 }
 
 @keyframes float {
@@ -43,44 +143,79 @@ header {
 	}
 }
 
-#htmlcss {
-    font-family: Fredoka One;
-    font-size: 30px;
-    position: absolute;
-    top: 300px;
-    left: -300px;
-    transition: 1s;
+@keyframes abt {
+    0%   {background-color:#ffffff00; }
+    50% {background-color:white;}
+    100%   {background-color:#ffffff00; }
+  }
+
+a:link {
+    color: black;
 }
 
-#videoediting {
-    font-family: Fredoka One;
-    font-size: 30px;
-    position: absolute;
-    top: 300px;
-    left: -300px;
-    transition: 1s;
-
-
+a:visited {
+    color: black;
 }
 
-#graphicdesign {
-    font-family: Fredoka One;
-    font-size: 30px;
-    position: absolute;
-    top: 300px;
-    left:-300px;
-    transition: 1s;
-
+a:hover {
+    color: azure;
+    transition: .1s;
 }
 
-#showbut{
-    font-family: Fredoka One;
+#homebut {
     position: absolute;
-    width: 300px;
-    height: 70px;
-    border-radius: 20px;
-    top: 200px;
-    left: 800px;
-    font-size: 20px;
+    left: 100px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 90px;
+    top: 90px;
+}
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 90px;
+    top: 90px;
+}
+
+#codingbut {
+    position: absolute;
+    left: 30%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#videobut {
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#designbut {
+    position: absolute;
+    left: 70%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+
+#codingbut:hover,#videobut:hover,#designbut:hover {
+    animation: abt 1.5s infinite ease-in-out;
+
+
 }
 

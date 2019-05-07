@@ -10,6 +10,8 @@ function ShowStuff() {
         ht.style.left = 180 + "px";
         ve.style.left = 670 + "px";
         gd.style.left = 1100 + "px";
+}
 
-
+function info() {
+    
 }
