@@ -1,0 +1,221 @@
+body {
+    background: linear-gradient(-65deg, #120144, #1f2024, #19142b, #000000);
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 260px;
+}
+
+h2 {
+    position: absolute;
+    color: rgb(132, 75, 170);
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 305px;
+    background-color: white;
+    width: 150px;
+}
+
+#aboutelias {
+    animation: abt 4s infinite ease-in-out;
+}
+
+#bio {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    top: 360px;
+    width: 300px;    
+    text-align: center;
+}
+
+#bio1 {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    top: 450px;
+    width: 300px;    
+    text-align: center;
+    background-color: red;
+}
+
+#heh {
+    color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    top: 474px;
+    width: 300px;    
+    text-align: center;
+}
+
+#profpic {
+    width: 180px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+#video{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .8;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+
+
+}
+
+#boxx {
+    background-color: rgb(15, 15, 15);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    left: -5px;
+} 
+
+header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 15%;
+}
+
+@keyframes BackgroundMove {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-15px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+@keyframes abt {
+    0%   {background-color:#ffffff00; }
+    50% {background-color:white;}
+    100%   {background-color:#ffffff00; }
+  }
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: azure;
+    transition: .1s;
+}
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 90px;
+    top: 90px;
+}
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 90px;
+    top: 90px;
+}
+
+#codingbut {
+    position: absolute;
+    left: 30%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#videobut {
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#designbut {
+    position: absolute;
+    left: 70%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+
+#codingbut:hover,#videobut:hover,#designbut:hover {
+    animation: abt 1.5s infinite ease-in-out;
+
+
+}
+

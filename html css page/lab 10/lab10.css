@@ -1,0 +1,11 @@
+.nametag {
+    background-color: #ddd;
+    padding: 10px;
+    display: inline-flex;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.name {
+    color: #333;
+}

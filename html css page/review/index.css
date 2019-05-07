@@ -1,0 +1,54 @@
+#app, #controls, #thumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#zoom, #app, .bgthumbs {
+    background-size: cover;
+    background-position: center;
+}
+
+#app {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    flex-direction: column;
+}
+
+#zoom {
+    flex-grow: 3;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+#zoomcontrols {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 75px;
+    display: none;
+}
+
+#thumbs {
+    flex-grow: 2 1;
+}
+
+.bgthumbs {
+
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 100px;
+    border: solid 5px;
+    border-color: brown;
+}

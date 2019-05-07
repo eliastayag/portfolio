@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="menu.css">
+    <link rel="stylesheet"  href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div id="main">
+            <div id="zoom" onclick="zoomshow()">
+                <div id="zoomcontrols">
+                    <button onclick="zoomin()">+</button>
+                    <button onclick="zoomout()">-</button>
+                </div>
+            </div>
+            <div id="controls">
+                    <div id="buttons">
+                            <button onclick="prev()">Previous</button>
+                            <button id="bg1" onclick="bgchange1()">BG1</button>
+                            <button id="bg2" onclick="bgchange2()">BG2</button>
+                            <button id="bg3" onclick="bgchange3()">BG3</button>
+                            <button id="bg4" onclick="bgchange4()">BG4</button>
+                            <button onclick="next()">Next</button>
+                    </div>
+                </div>
+                <div id="thumbs">
+                    <div id="ch1" class="bgthumbs" onmouseover="zoomchange1()"></div>
+                    <div id="ch2" class="bgthumbs" onmouseover="zoomchange2()"></div>
+                    <div id="ch3" class="bgthumbs" onmouseover="zoomchange3()"></div>
+                </div>
+            </div>
+        
+            
+    <div id="menu">
+        <button id="open" onclick="menuopen()">Open</button>
+        <button id="close" onclick="menuclose()">Close</button>
+        <button id="makebg" onclick="makebg()">Make BG</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="hideapp" onclick="hideapp()">Hide App</button>
+        <button id="showapp" onclick="showapp()">Show App</button>
+    </div>
+    
+
+
+
+
+    <script src="index.js"></script>
+    <script src="menu.js"></script>
+    
+</body>
+</html>

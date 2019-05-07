@@ -1,0 +1,16 @@
+#ranges, #buttons {
+    display: flex;
+}
+
+input [type=range] {
+    flex: 1;
+}
+
+input [type=color] {
+    flex: 3;
+}
+
+#colorc {
+    width: 200px;
+    height: 30px;
+}

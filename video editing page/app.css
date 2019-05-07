@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(-65deg, #240090, #4056a1, #3500d3, #190061);
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%; 
+}
+
+body {
+    background: #313639;
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%; 
+}
+
+h1, h2 {
+    color: #32CD32;
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    font-size: 25px;
+}
+
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: gold;
+    font-family: 'Codystar', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+#codingbut {
+    position: absolute;
+    left: 25%;
+    color: gold;
+    font-family: 'Codystar', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+#videobut {
+    position: absolute;
+    left: 47%;
+    color: gold;
+    font-family: 'Codystar', cursive;
+    font-weight: 700;
+    font-size: 60px;
+    top: 120px;
+}
+
+#designbut {
+    position: absolute;
+    left: 70%;
+    color: gold;
+    font-family: 'Codystar', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+
+
+#homebut:hover,#codingbut:hover,#designbut:hover {
+    animation: abt 1s infinite ease-in-out;
+
+
+}
+
+#boxx {
+    background-color: rgb(15, 15, 15);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    left: -5px;
+} 
+
+
+@keyframes abt {
+    0%   {background-color:#ffffff00; }
+    50% {background-color:white;}
+    100%   {background-color:#ffffff00; }
+  }

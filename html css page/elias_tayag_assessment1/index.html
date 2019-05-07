@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>elias tayag assessment 1</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div id="app">
+        <div id="stickerControls">
+            <button id="open" onclick="oopen()">Sticker</button>
+            <button id="change" onclick="change()">Change</button>
+        </div>
+        <div id="stickerDisplay">
+
+            <img id="sticker" src="st1.png"/>
+
+        </div>
+        <div id="bg" onclick="expand()">
+            <button id="prev" onclick="prev()">Prev</button>
+            <div id="thumb1" class="thumbs" onclick="bgchange1()"></div>
+            <div id="thumb2" class="thumbs" onclick="bgchange2()"></div>
+            <div id="thumb3" class="thumbs" onclick="bgchange3()"></div>
+            <div id="thumb4" class="thumbs" onclick="bgchange4()"></div>
+            <button id="next" onclick="next()">Next</button>
+
+        </div>
+        <div id="preview" onclick="minimize()"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

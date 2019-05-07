@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(-65deg, rgb(180, 201, 212), rgb(154, 196, 196), #3500d3, #6048a7);
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%; 
+}
+
+@keyframes BackgroundMove {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+h1, h2 {
+    color: #32CD32;
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    font-size: 25px;
+}
+
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: #FFCCFF;
+    font-family: 'Charmonman', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#codingbut {
+    position: absolute;
+    left: 25%;
+    color: #FFCCFF;
+    font-family: 'Charmonman', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#videobut {
+    position: absolute;
+    left: 47%;
+    color: #FFCCFF;
+    font-family: 'Charmonman', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    top: 30px;
+}
+
+#designbut {
+    position: absolute;
+    left: 70%;
+    color: #FFCCFF;
+    font-family: 'Charmonman', cursive;
+    font-weight: 700;
+    font-size: 75px;
+    top: 80px;
+}
+
+
+
+#homebut:hover,#codingbut:hover,#videobut:hover {
+    animation: abt 1s infinite ease-in-out;
+
+
+}
+
+#boxx {
+    background-color: rgb(15, 15, 15);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    left: -5px;
+} 
+
+
+@keyframes abt {
+    0%   {background-color:#ffffff00; }
+    50% {background-color:white;}
+    100%   {background-color:#ffffff00; }
+  }

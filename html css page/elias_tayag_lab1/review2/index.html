@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assessment 2 - Avatar creator</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="preview.css">
+  </head>
+  
+  <body>
+    <div id="app">
+    <div id="preview">
+      <img id="hair" class="items" src="img/hair1.png" onclick="SwitchHairUI()"/>
+      <img id="eyes" class="items" src="img/eyes1.png" onclick="SwitchEyesUI()"/>
+      <img id="nose" class="items" src="img/nose1.png" onclick="SwitchNoseUI()"/>
+      <img id="mouth" class="items" src="img/mouth1.png" onclick="SwitchMouthUI()"/>
+    </div>
+        <div id="controls">
+        <div id="ranges">
+          <input type="range" min="0" max="70" value="60" onchange="ChangeHairUI(this.value)">
+          <input type="range" min="0" max="40" value="20" onchange="ChangeEyesUI(this.value)">
+          <input type="range" min="0" max="30" value="20" onchange="ChangeNoseUI(this.value)">
+          <input type="range" min="0" max="35" value="20" onchange="ChangeMouthUI(this.value)">
+   
+        </div>
+        <div id="buttons">
+          <input id="colorc" type="color" onchange="ChangeBG(this)">
+          <button id="random" onclick="RandomAva()">Random</button>
+          <button id="add" onclick="CreateAva()">+</button>
+          </div>
+      </div>
+  </div>
+
+
+    <script src="app.js"></script>
+    <script src="preview.js"></script>
+  </body>
+</html>

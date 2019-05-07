@@ -1,0 +1,66 @@
+#app {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#bg {
+    flex-grow: 1 50;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#preview {
+    flex: 50;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+}
+
+.thumbs {
+    flex: 50;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border: solid 5px;
+    border-color: brown;
+}
+
+#thumb1 {
+    background-image: url('bg1.jpg');
+}
+
+#thumb2 {
+    background-image: url('bg2.jpg');
+}
+
+#thumb3 {
+    background-image: url('bg3.jpg');
+}
+
+#thumb4 {
+    background-image: url('bg4.jpg');
+}
+
+#stickerControls, #stickerDisplay {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#stickerDisplay {
+    right: -100px;
+    bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#sticker {
+    max-width: 100%;
+    max-height: 100%;
+}
+

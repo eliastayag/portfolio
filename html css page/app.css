@@ -1,0 +1,78 @@
+body {
+    background: #313639;
+    animation: BackgroundMove 15s ease infinite;
+    background-size: 400% 400%; 
+}
+
+h1, h2 {
+    color: #32CD32;
+    font-family: 'Press Start 2P', cursive;
+}
+h1 {
+    font-size: 25px;
+}
+
+
+#homebut {
+    position: absolute;
+    left: 100px;
+    color: rgb(132, 197, 33);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+#codingbut {
+    position: absolute;
+    left: 25%;
+    color: rgb(132, 197, 33);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: 60px;
+    top: 110px;
+}
+
+#videobut {
+    position: absolute;
+    left: 50%;
+    color: rgb(132, 197, 33);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+#designbut {
+    position: absolute;
+    left: 70%;
+    color: rgb(132, 197, 33);
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    top: 30px;
+}
+
+
+
+#homebut:hover,#videobut:hover,#designbut:hover {
+    animation: abt 1s infinite ease-in-out;
+
+
+}
+
+#boxx {
+    background-color: rgb(15, 15, 15);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -8px;
+    left: -5px;
+} 
+
+
+@keyframes abt {
+    0%   {background-color:#ffffff00; }
+    50% {background-color:white;}
+    100%   {background-color:#ffffff00; }
+  }

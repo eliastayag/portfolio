@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>flex</title>
+    <style>
+        #flexCont{
+            display: flex;
+            position: fixed;
+            flex-direction: column;
+            left: 0px;
+            top: 0px;
+            width: 100vw;
+            height: 100vh;
+            background-color: #bed;
+        }
+        
+        .flex1{
+            flex:1;
+        }
+        
+        .flex2 {
+            flex:4;
+        }
+        
+        .flexRows {
+            display: flex;
+        }
+        
+        #box1 {
+            top: 500px;
+            width: 100px;
+            height: 100px;
+            background-color:black;
+            border-radius: 100px;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="flexCont">
+        <div class="flexRows">
+    <div class="flex1">Flex 1</div>
+    <div class="flex1">Flex 1</div>
+    <div class="flex2">Flex 2</div>
+        <div class="flex1">Flex 1</div>
+    </div>
+        <div class="flexRows">
+    <div class="flex1">Flex 1</div>
+    <div class="flex1">Flex 1</div>
+    <div class="flex2">Flex 2</div>
+        <div class="flex1">Flex 1</div>
+    </div>
+    </div>
+    <div id="box1"></div>
+    
+    <script>
+        document.querySelector("#box1").addEventListener("click", function(){
+    document.getElementById("#box1").style.width = "300px";
+    document.querySelector("#box1").style.backgroundColor = "red";
+        }];
+    </script>
+</body>
+</html>
