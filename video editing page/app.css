@@ -82,3 +82,33 @@ h1 {
     50% {background-color:white;}
     100%   {background-color:#ffffff00; }
   }
+
+  p {
+      font-family: Roboto;
+      color: goldenrod;
+      position: absolute;
+      font-weight: 700;
+  }
+
+  #pbio {
+      font-size: 20px;
+      left: 30px;
+      top: 19%;
+      line-height: 130%;
+  }
+
+  button {
+      position: absolute;
+      border-radius: 10px;
+      width: 9%;
+      height: 4%;
+      background-color: darkorchid;
+      font-family: roboto;
+      font-weight: 700;
+      border-color: black;
+  }
+
+  #ex1 {
+      left: 100px;
+      top: 35%;
+  }
