@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(-65deg, rgb(180, 201, 212), rgb(154, 196, 196), #3500d3, #6048a7);
-    animation: BackgroundMove 15s ease infinite;
-    background-size: 400% 400%; 
+    background: linear-gradient(-270deg, rgb(154, 196, 196), #6048a7);
+    animation: BackgroundMove 8s ease infinite;
+    background-size: 110% 110%; 
 }
 
 @keyframes BackgroundMove {

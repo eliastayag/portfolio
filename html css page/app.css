@@ -10,6 +10,9 @@ h1, h2 {
 }
 h1 {
     font-size: 25px;
+    top: 200px;
+    left: 50px;
+    position: absolute;
 }
 
 
@@ -76,3 +79,42 @@ h1 {
     50% {background-color:white;}
     100%   {background-color:#ffffff00; }
   }
+
+
+.buts {
+    position: absolute;
+    left: 50px;
+
+}
+
+#butex1 {
+    position: absolute;
+    top: 40%;
+}
+
+p {
+    font-family: Roboto;
+    color: rgb(132, 197, 33);
+    left: 50px;
+    position: absolute;
+}
+
+#p1 {
+    top: 31.5%;
+}
+
+#p2 {
+    top: 45%;
+}
+
+#butex2{
+    top: 53.5%;
+}
+
+#butex3{
+    top: 64.5%;
+}
+
+#p3 {
+    top: 58%;
+}
