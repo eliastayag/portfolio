@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(-270deg, rgb(154, 196, 196), #6048a7);
-    animation: BackgroundMove 8s ease infinite;
+    animation: BackgroundMove 5s ease infinite;
     background-size: 110% 110%; 
 }
 
@@ -81,4 +81,50 @@ h1 {
     0%   {background-color:#ffffff00; }
     50% {background-color:white;}
     100%   {background-color:#ffffff00; }
+  }
+
+  p{ 
+      font-family: roboto;
+      font-size: 125%;
+      color: rgb(0, 0, 0);
+  }
+
+  #bio {
+      font-weight: 700;
+      left: 5%;
+      position: absolute;
+      top: 20%;
+  }
+
+  #gameboy {
+      position: absolute;
+      top: 35%;
+      left: 21%;
+      width: 35vw;
+      height: 50vh;
+      transition: ease-in-out 1s;
+  }
+
+  #gamebio {
+      position: absolute;
+      left: 2%;
+      top: 33%;
+  }
+
+  button {
+      font-family: roboto;
+      width: 5%;
+      border-radius: 10px;
+      position: absolute;
+  }
+
+  #gamebut {
+      left: 21%;
+      top: 31.5%;
+  }
+
+  #gamebut1 {
+      left: 28%;
+      top: 31.5%;
+      visibility: hidden;
   }
